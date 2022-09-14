@@ -15,7 +15,7 @@ let imports = [
 
 let loadImport = (i = 0) => {
     let s = document.createElement('script');
-    s.src = '/assets/js/'+imports[i];
+    s.src = './assets/js/'+imports[i];
 
     document.body.appendChild(s);
 
